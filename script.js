@@ -1,6 +1,6 @@
 "use strict";
 
-const WHATSAPP_NUMBER = "2347011782552";
+const WHATSAPP_NUMBER = "2348051839547";
 
 document.addEventListener("DOMContentLoaded", () => {
   setupHeader();
