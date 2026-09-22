@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact | Awesome</title>
+
+  <meta
+    name="description"
+    content="Get in touch with Awesome for website projects, collaborations, and ideas."
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="entering">
+
+  <div class="page-wipe"></div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+
+    <a href="index.html" class="logo">
+      Awesome<span>.</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      aria-label="Open navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="journey.html">Journey</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+  </header>
+
+
+  <!-- PAGE HERO -->
+  <main>
+
+    <section
+      class="page-hero reveal"
+      style="
+        min-height: 65vh;
+        display: flex;
+        align-items: center;
+        padding: 150px 7% 80px;
+      "
+    >
+
+      <div style="max-width: 850px;">
+
+        <p
+          style="
+            color: var(--red);
+            font-family: 'DM Mono', monospace;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+          "
+        >
+          Get in touch
+        </p>
+
+        <h1>
+          Let's build
+          <span style="color: var(--red);">something.</span>
+        </h1>
+
+        <p style="max-width: 650px; margin-top: 25px;">
+          Have a website idea, a small project, or something you think
+          we could build together? Send me a message and let's talk.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT AREA -->
+    <section
+      style="
+        padding: 40px 7% 120px;
+      "
+    >
+
+      <div
+        style="
+          display: grid;
+          grid-template-columns: 0.8fr 1.2fr;
+          gap: 60px;
+          max-width: 1100px;
+          margin: auto;
+        "
+      >
+
+        <!-- CONTACT INFO -->
+        <div class="reveal">
+
+          <p
+            style="
+              color: var(--red);
+              font-family: 'DM Mono', monospace;
+              margin-bottom: 15px;
+            "
+          >
+            CONTACT
+          </p>
+
+          <h2>Have an idea?</h2>
+
+          <p style="margin-top: 20px;">
+            I'm always interested in learning, building new projects,
+            and connecting with people who have interesting ideas.
+          </p>
+
+          <div style="margin-top: 40px;">
+
+            <a
+              href="https://wa.me/2347011782552"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="magnetic"
+              style="
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+                padding: 15px 22px;
+                background: var(--red);
+                color: white;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: 700;
+              "
+            >
+              Chat on WhatsApp →
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- FORM -->
+        <div class="reveal">
+
+          <form id="contact-form">
+
+            <div style="margin-bottom: 25px;">
+              <label
+                for="name"
+                style="
+                  display: block;
+                  margin-bottom: 10px;
+                  font-weight: 700;
+                "
+              >
+                Your name
+              </label>
+
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+                style="
+                  width: 100%;
+                  padding: 16px;
+                  border: 1px solid rgba(255,255,255,.12);
+                  background: rgba(255,255,255,.04);
+                  color: white;
+                  border-radius: 8px;
+                  outline: none;
+                  font: inherit;
+                "
+              >
+            </div>
+
+
+            <div style="margin-bottom: 25px;">
+              <label
+                for="email"
+                style="
+                  display: block;
+                  margin-bottom: 10px;
+                  font-weight: 700;
+                "
+              >
+                Email
+              </label>
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+                style="
+                  width: 100%;
+                  padding: 16px;
+                  border: 1px solid rgba(255,255,255,.12);
+                  background: rgba(255,255,255,.04);
+                  color: white;
+                  border-radius: 8px;
+                  outline: none;
+                  font: inherit;
+                "
+              >
+            </div>
+
+
+            <div style="margin-bottom: 25px;">
+              <label
+                for="message"
+                style="
+                  display: block;
+                  margin-bottom: 10px;
+                  font-weight: 700;
+                "
+              >
+                Message
+              </label>
+
+              <textarea
+                id="message"
+                name="message"
+                rows="7"
+                placeholder="Tell me about your idea..."
+                required
+                style="
+                  width: 100%;
+                  padding: 16px;
+                  border: 1px solid rgba(255,255,255,.12);
+                  background: rgba(255,255,255,.04);
+                  color: white;
+                  border-radius: 8px;
+                  outline: none;
+                  font: inherit;
+                  resize: vertical;
+                "
+              ></textarea>
+            </div>
+
+
+            <button
+              type="submit"
+              class="magnetic"
+              style="
+                border: none;
+                cursor: pointer;
+                padding: 16px 25px;
+                background: white;
+                color: black;
+                border-radius: 8px;
+                font-weight: 800;
+                font-size: 1rem;
+              "
+            >
+              Send via WhatsApp →
+            </button>
+
+            <p
+              id="form-status"
+              style="
+                margin-top: 18px;
+                color: var(--muted);
+              "
+            ></p>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div>
+      <strong>Awesome<span style="color: var(--red);">.</span></strong>
+      <p>Building. Learning. Becoming.</p>
+    </div>
+
+    <p>
+      © <span class="year"></span> Awesome. All rights reserved.
+    </p>
+
+  </footer>
+
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor"></div>
+  <div class="cursor-ring"></div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
